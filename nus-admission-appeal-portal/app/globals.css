@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), sans-serif;
+  --font-display: var(--font-display), sans-serif;
+  --font-mono: var(--font-mono), monospace;
+  
+  --color-dominant-dark: #090d16;
+  --color-dominant-card: #0f172a;
+  --color-dominant-border: rgba(244, 114, 182, 0.2); /* Pink border at 20% opacity */
+  --color-editorial-pink: #f472b6;
+  --color-rose-quartz: #fce7f3;
+  --color-cyber-blue: #38bdf8;
+  --color-accent-blue-hover: #0ea5e9;
+}
+
+/* Base resets & global styles for smooth scrolling and clean custom scrollbars */
+html, body {
+  background-color: var(--color-dominant-dark);
+  color: var(--color-rose-quartz);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Premium micro-glows */
+.glow-pink {
+  box-shadow: 0 0 20px -5px rgba(244, 114, 182, 0.15);
+}
+
+.glow-blue {
+  box-shadow: 0 0 25px -5px rgba(56, 189, 248, 0.25);
+}
+
+/* Custom transitions and scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-dominant-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(244, 114, 182, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(244, 114, 182, 0.4);
+}
+
