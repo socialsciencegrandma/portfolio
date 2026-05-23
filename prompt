@@ -5,6 +5,9 @@ This single-page web application will serve as my primary external verification 
 
 The admissions committee explicitly states that appeals are only considered if they contain NEW academic and non-academic achievements not included in the initial March application. Therefore, the architectural layout of this site must visually isolate and prioritize my post-application acceleration (March 2026 to Present) to immediately validate the premise of my appeal.
 
+--- COMPONENT-LEVEL ASSET INSTRUCTIONS ---
+For every single achievement card rendered in the UI (both new milestones and historical foundations), you must integrate exactly ONE dedicated preview image block. The source (`src`) of this image must map cleanly to the unique path generated in the data array for that item (following the `/assets/images/...` ruleset defined in your system rules). Do not leave out the image element on any card; every single achievement must have its own corresponding image asset container.
+
 --- ARCHITECTURAL COMPONENTS TO GENERATE ---
 Generate a fully production-ready, semantic single-page web application. The DOM must contain:
 
