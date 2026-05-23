@@ -12,19 +12,19 @@ Implement a clean, high-fidelity layout following Material Design 3 guidelines (
 - 10% ACCENT (Interactive Actions, Verification Badges, Critical Highlights): Cybernetic Electric Blue (#38BDF8 / #0EA5E9). Used strictly to draw the eyes of the reviewer to verified evidence, clickable actions, and current milestones.
 
 --- ARCHITECTURAL COMPONENTS TO GENERATE ---
-Generate a fully production-ready, semantic single-page web application using HTML5, Tailwind CSS via CDN, and vanilla JavaScript. The DOM must contain:
+Generate a fully production-ready, semantic single-page web application. The DOM must contain:
 
 1. HERO HEADER:
-   A clean Material Design surface card showing my name (Ng Kai Ming) and the strategic subtitle: "Southeast Asian Civil Infrastructure, Cross-Border Policy & Grassroots Mobilization."
+   A clean Material Design surface card showing my name (Ng Kai Ming) and a strategic subtitle.
 
 2. THE "ACCELERATION TIMELINE" (MARCH 2026 - PRESENT):
    This is the primary 60% viewport section. Items must be rendered inside explicit Material containers with a clear Electric Blue "[NEW EVIDENCE]" status badge. Render these 10 distinct, complete items grouped into these arrays:
    - REGIONAL ALLIANCES: DIS Community APAC Expansion Lead (Advocated Singapore Regional HQ post-NSAS launch), Johor-Singapore SEZ Smart City Solutions Advisor (Collaborating with Smart Cities Network and NGWT), and The Bu1ld Automation Architecture Implementation Advisor (Partnered with Microsoft/MIT).
    - CIVIL INFRASTRUCTURE PATHWAYS: SUSS Well-being Conference 2026 Double Abstract Acceptance (Invited Day 2 Volunteerism Panelist AND Student Disability Advocate Voice), AI Engineer Presentation with Tesseract Art (17 May 2026 - AI Technologist & Disability Advocate).
-   - POLICY TRANSNATIONAL GOVERNANCE: Scientific AI for Development Lab Lead Researcher (Formalising Skills Alignment Metric for Education Policy Reform), Synthica Journal Ethics Review Board Director (AI ML paper reproducibility with Harvard/Stanford/Caltech), Greenio.tech Policy Advisor (Global e-waste reduction project), and Equity Economics Lab Senior Policy Advisor.
+   - POLICY TRANSNATIONAL GOVERNANCE: Scientific AI for Development Lab Lead Researcher (Formalising Skills Alignment Metric for Education Policy Reform), Synthica Journal Ethics Review Board Director (Setting up AI-informed ethical frameworks, AI usage frameworks, reproducibility and information management), Greenio.tech Policy Advisor (APAC e-waste reduction project), and Equity Economics Lab Senior Policy Advisor.
 
 3. THE "HISTORICAL BASELINE" DISCLOSURE SECTION:
-   A collapsible or lower-tier visual grid section labeled "Foundational Infrastructure & Prior Artifacts." This contains my prior application assets (ASEAN Youth Advocates Network Vietnam Country Director tenure, my 2018 Indonesia-Malaysia Border Anthropology Field Notes, and my Raffles Institution / Judo leadership records) so the committee can see how the new milestones expand on my prior background.
+   A collapsible or lower-tier visual grid section labeled "Foundational Infrastructure & Prior Artifacts." This contains my prior application assets so the committee can see how the new milestones expand on my prior background.
 
 4. CLICK-TO-VERIFY EVENT INTERCEPTOR:
    Every project card must have a primary action button utilizing the 10% Accent Electric Blue. Write a JavaScript function `handleEvidenceClick(id)` where if the item has an active link, it launches a clean window link, and if it is a local asset placeholder, it opens a beautiful custom floating Material Modal that explains the asset's index token and availability within the final physical appeal dossier.
