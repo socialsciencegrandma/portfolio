@@ -1,0 +1,6 @@
+{
+  "name": "NUS Admission Appeal Portal",
+  "description": "Admissions verification node and appeal portfolio for Ng Kai Ming, Southeast Asian Studies at the College of Humanities and Sciences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
