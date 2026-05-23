@@ -10,6 +10,7 @@ Implement a clean, high-fidelity layout following Material Design 3 guidelines (
 - 60% DOMINANT SURFACE (Base & Canvas): Deep, rich Slate Black (#0F172A to #1E293B). Provides a premium, academic dark mode surface.
 - 30% SECONDARY STRUCTURAL (Typography, Borders, Container Surfaces): Soft Editorial Pink / Rose Quartz (#F472B6 / #FCE7F3 variants). Used for clean semantic hierarchy, structural division lines, and text content boxes.
 - 10% ACCENT (Interactive Actions, Verification Badges, Critical Highlights): Cybernetic Electric Blue (#38BDF8 / #0EA5E9). Used strictly to draw the eyes of the reviewer to verified evidence, clickable actions, and current milestones.
+- Add the place holder image(IMAGE.NAME) in appropriate places within each section. <------ Edit place holder name
 
 --- ARCHITECTURAL COMPONENTS TO GENERATE ---
 Generate a fully production-ready, semantic single-page web application. The DOM must contain:
