@@ -17,14 +17,45 @@ Generate a fully production-ready, semantic single-page web application. The DOM
 1. HERO HEADER:
    A clean Material Design surface card showing my name (Ng Kai Ming) and a strategic subtitle.
 
-2. THE "ACCELERATION TIMELINE" (MARCH 2026 - PRESENT):
+2. THE ACCELERATION TIMELINE (MARCH 2026 - PRESENT):
    This is the primary 60% viewport section. Items must be rendered inside explicit Material containers with a clear Electric Blue "[NEW EVIDENCE]" status badge. Render these 10 distinct, complete items grouped into these arrays:
    - REGIONAL ALLIANCES: DIS Community APAC Expansion Lead (Advocated Singapore Regional HQ post-NSAS launch), Johor-Singapore SEZ Smart City Solutions Advisor (Collaborating with Smart Cities Network and NGWT), and The Bu1ld Automation Architecture Implementation Advisor (Partnered with Microsoft/MIT).
    - CIVIL INFRASTRUCTURE PATHWAYS: SUSS Well-being Conference 2026 Double Abstract Acceptance (Invited Day 2 Volunteerism Panelist AND Student Disability Advocate Voice), AI Engineer Presentation with Tesseract Art (17 May 2026 - AI Technologist & Disability Advocate).
    - POLICY TRANSNATIONAL GOVERNANCE: Scientific AI for Development Lab Lead Researcher (Formalising Skills Alignment Metric for Education Policy Reform), Synthica Journal Ethics Review Board Director (Setting up AI-informed ethical frameworks, AI usage frameworks, reproducibility and information management), Greenio.tech Policy Advisor (APAC e-waste reduction project), and Equity Economics Lab Senior Policy Advisor.
 
-3. THE "HISTORICAL BASELINE" DISCLOSURE SECTION:
-   A collapsible or lower-tier visual grid section labeled "Foundational Infrastructure & Prior Artifacts." This contains my prior application assets so the committee can see how the new milestones expand on my prior background.
+3. THE HISTORICAL BASELINE DISCLOSURE SECTION:
+   A collapsible or lower-tier visual grid section. This contains my prior application assets so the committee can see how the new milestones expand on my prior background.
+   list of media assets: 
+   {Chinese Cultural Programme
+   Camp Ignite! 2018
+   2018 Raffles Colours Outstanding Award (Performance) - Robotics
+   Dunman High Model ASEAN Plus Summit 2017
+   DSO World of Science CTF Winner 2019
+   Google Project Management Certificate
+   14th Inter-School Philosophy Dialogue
+   15th Inter-School Philosophy Dialogue
+   LSE Certificate
+   OTCi Labour Leadership Institute - nEbO's Youth Leadership Development Programme
+   Singapore International Relations Conference 2018
+   Singapore Junior Biology Olympiad 2017
+   The Power of Microeconomics: Economic Principles in the Real World UCI
+   United Nations Association of Singapore Model United Nations Preparatory Conference 2017
+   YDSP Cryptography
+   Borobudur Relief
+   Wayang Wong Performer
+   Young Wayang Kulit Performers
+   Batam Village
+   AWS Cloud Solutions Architect Certificate
+   7 Cups Community Building Course
+   7 Cups Internship Student Track with Honors
+   Schoolhouse.world Research Workshop & Mentorship
+   Surge - Disability Advocacy
+   HDB Photography - Disability Advocacy
+   ‘Surge’ Auctioned to Vincent Chai for RDSS Fundraiser
+   RoboCup Singapore Open 2018 - Asia-Pacific (RCAP) CoSpace Rescue, Gold
+   Business Mentor at SCORE USA
+   ASEAN Youth Advocates Network
+   Article featuring Lecture at Grand Valley State University}
 
 4. CLICK-TO-VERIFY EVENT INTERCEPTOR:
    Every project card must have a primary action button utilizing the 10% Accent Electric Blue. Write a JavaScript function `handleEvidenceClick(id)` where if the item has an active link, it launches a clean window link, and if it is a local asset placeholder, it opens a beautiful custom floating Material Modal that explains the asset's index token and availability within the final physical appeal dossier.
