@@ -86,6 +86,17 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     status: "Dossier Filed",
     date: "17 May 2026"
   },
+  {
+    id: "new-advocacy-ai-presentation",
+    title: "Placeholder",
+    subtitle: "AI Technologist & Disability Advocate",
+    description: "Presented keynotes analyzing how multi-modal consumer generative AI can serve as cognitive prosthetics for neurodivergent and physically disabled student demographics, highlighting the intersections of digital sovereignty and universal design.",
+    imagePath: "/assets/images/ai-engineer-tesseract-presentation.png",
+    category: "advocacy",
+    dossierId: "NKM-NEW-ADV-02",
+    status: "Dossier Filed",
+    date: "17 May 2026"
+  },
 
   // PILLAR_ACADEMIC (New)
   {
