@@ -89,9 +89,6 @@ function EditorialAssetImage({
         </div>
 
         <div className="space-y-1">
-          <span className="text-[9px] font-mono uppercase text-stone-400 block tracking-widest">
-            LOCAL REPREZ MODULE LINK
-          </span>
           <p className="text-xs text-stone-600 font-mono truncate bg-white/80 px-2 py-1 rounded border border-stone-200 max-w-full">
             {src}
           </p>
