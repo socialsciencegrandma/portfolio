@@ -87,15 +87,16 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     date: "17 May 2026"
   },
   {
-    id: "new-advocacy-ai-presentation",
-    title: "Placeholder",
-    subtitle: "AI Technologist & Disability Advocate",
-    description: "Presented keynotes analyzing how multi-modal consumer generative AI can serve as cognitive prosthetics for neurodivergent and physically disabled student demographics, highlighting the intersections of digital sovereignty and universal design.",
-    imagePath: "/assets/images/ai-engineer-tesseract-presentation.png",
+    id: "new-advocacy-suss-conf",
+    title: "SUSS Well-being Conference 2026 Double Exhibit",
+    subtitle: "Exhibit Day 2 Volunteerism Panelist & Disability Advocate Voice",
+    description: "Co-authored two key papers accepted at SUSS: One focusing on modern structural volunteerism dynamics, and the second analyzing systemic accessibility gaps in regional post-secondary educational infrastructures.",
+    imagePath: "/assets/images/suss-well-being-conference-2026-exhibit-abstract-acceptance.png",
     category: "advocacy",
-    dossierId: "NKM-NEW-ADV-02",
-    status: "Dossier Filed",
-    date: "17 May 2026"
+    dossierId: "NKM-NEW-ADV-01",
+    status: "Verified",
+    date: "May 2026",
+    link: "https://www.suss.edu.sg/news-and-events/conferences"
   },
 
   // PILLAR_ACADEMIC (New)
