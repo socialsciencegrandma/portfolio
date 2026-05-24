@@ -110,17 +110,6 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     dossierId: "NKM-NEW-ACA-02",
     status: "Dossier Filed",
     date: "April 2026 - Present"
-  },
-  {
-    id: "new-academic-bu1ld-advisor",
-    title: "The Bu1ld Automation Architecture Implementation Advisor",
-    subtitle: "Partnered with Microsoft and MIT Researchers",
-    description: "Consulted on building modular automation compilation systems. Configured specialized container deployment scripts parsing infrastructure components to scale up scientific workflow orchestrations without computational latency bottlenecking.",
-    imagePath: "/assets/images/the-bu1ld-automation-architecture-implementation-advisor.png",
-    category: "academic",
-    dossierId: "NKM-NEW-ACA-03",
-    status: "Verified",
-    date: "March 2026 - Present"
   }
 ];
 

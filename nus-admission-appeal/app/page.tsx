@@ -180,13 +180,13 @@ export default function Home() {
               </p>
             </div>
             <div className="text-right text-[11px] font-mono text-stone-500 bg-stone-100 border border-stone-200 px-3 py-1 rounded">
-              Dossier Ref: <span className="font-bold text-stone-800">NKM-MARCH-MAY-2026</span>
+              Application No: <span className="font-bold text-stone-800">322631047</span>
             </div>
           </div>
 
           <div className="space-y-4">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-medium text-stone-900 tracking-tight">
-              Ng Kai Ming <span className="text-stone-400 font-sans text-xl sm:text-2xl font-normal ml-1">(黄启明)</span>
+              Ng Kai Ming <span className="text-stone-400 font-sans text-xl sm:text-2xl font-normal ml-1">(伍恺茗)</span>
             </h1>
             <p className="text-stone-700 text-base sm:text-lg leading-relaxed max-w-3xl font-display">
               Official appeal portfolio for admission to <span className="font-semibold text-stone-900">Southeast Asian Studies</span>. Re-submitted with recent academic achievements, board appointments, and development policy studies completed between <span className="text-rose-600 font-medium">March 2026 and Present</span>.
