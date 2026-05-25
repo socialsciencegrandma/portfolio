@@ -405,18 +405,15 @@ export default function Home() {
             <div className="space-y-1">
               <span className="text-[10px] font-mono uppercase tracking-widest text-stone-400 font-bold flex items-center gap-1.5">
                 <FileText className="w-3.5 h-3.5 text-stone-400" />
-                FOUNDATIONAL SUBMISSION BASICS
+                PRE-MARCH 2026 ACHIEVEMENTS
               </span>
               <h3 className="text-lg font-display font-semibold text-stone-900 tracking-tight">
-                Historical Foundation Assets (Prior March 2026 Submission)
+                Achievements Included in Original Submission (Added Evidence)
               </h3>
-              <p className="text-xs text-stone-500">
-                Review the 32 background assets already lodged in the general admissions cycle to evaluate context expansion.
-              </p>
             </div>
 
             <div className="flex items-center space-x-2 text-xs font-mono text-stone-600 border border-stone-200 px-3 py-1.5 rounded-lg bg-white">
-              <span>{showHistorical ? 'Hide Foundation Assets' : 'Inspect Foundations (32 items)'}</span>
+              <span>{showHistorical ? 'Hide' : 'Show (32 items)'}</span>
               {showHistorical ? <ChevronUp className="w-4 h-4 text-stone-500" /> : <ChevronDown className="w-4 h-4 text-stone-500" />}
             </div>
           </button>
@@ -430,14 +427,6 @@ export default function Home() {
                 transition={{ duration: 0.4 }}
                 className="overflow-hidden space-y-12"
               >
-                <div className="bg-stone-100/50 border border-stone-200 rounded-xl p-6 text-center max-w-4xl mx-auto space-y-1.5">
-                  <p className="text-[10px] font-mono uppercase tracking-wide text-stone-400 font-bold">
-                    Verification Ledger Summary Structure
-                  </p>
-                  <p className="text-xs text-stone-600 leading-relaxed">
-                    The items below constitute the baseline material submitted in March. The purpose of this portal is to demonstrate how Ng Kai Ming&apos;s new milestones above complement these foundations with rapid post-application delivery.
-                  </p>
-                </div>
 
                 {/* Iterate through subsections organized by pillar */}
                 {historicalSubsections.map((sub) => {
