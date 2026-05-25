@@ -64,18 +64,6 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
 
   // PILLAR_ADVOCACY (New)
   {
-    id: "new-advocacy-suss-conf",
-    title: "SUSS Well-being Conference 2026 Double Abstract Acceptance",
-    subtitle: "Invited Day 2 Volunteerism Panelist & Disability Advocate Voice",
-    description: "Co-authored two key papers accepted at SUSS: One focusing on modern structural volunteerism dynamics, and the second analyzing systemic accessibility gaps in regional post-secondary educational infrastructures.",
-    imagePath: "/assets/images/suss-well-being-conference-2026-double-abstract-acceptance.png",
-    category: "advocacy",
-    dossierId: "NKM-NEW-ADV-01",
-    status: "Verified",
-    date: "May 2026",
-    link: "https://www.suss.edu.sg/news-and-events/conferences"
-  },
-  {
     id: "new-advocacy-ai-presentation",
     title: "AI Engineer Presentation with Tesseract Art",
     subtitle: "AI Technologist & Disability Advocate",
@@ -86,8 +74,32 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     status: "Dossier Filed",
     date: "17 May 2026"
   },
+  {
+    id: "new-advocacy-suss-conf-exhibit",
+    title: "SUSS Well-being Conference 2026 Exhibit",
+    subtitle: "Invited Art Exhibitor - Disability Advocate",
+    description: "Co-authored two key papers accepted at SUSS: One focusing on modern structural volunteerism dynamics, and the second analyzing systemic accessibility gaps in regional post-secondary educational infrastructures.",
+    imagePath: "/assets/images/suss-well-being-conference-2026-exhibit-abstract-acceptance.png",
+    category: "advocacy",
+    dossierId: "NKM-NEW-ADV-01",
+    status: "Verified",
+    date: "May 2026",
+    link: "https://www.suss.edu.sg/news-and-events/conferences"
+  },
 
   // PILLAR_ACADEMIC (New)
+  {
+    id: "new-academic-suss-conf-panel",
+    title: "SUSS Well-being Conference 2026 Panel Abstract Acceptance",
+    subtitle: "Invited Panelist for Day 2, Volunteerism",
+    description: "Co-authored two key papers accepted at SUSS: One focusing on modern structural volunteerism dynamics, and the second analyzing systemic accessibility gaps in regional post-secondary educational infrastructures.",
+    imagePath: "/assets/images/suss-well-being-conference-2026-panel-abstract-acceptance.png",
+    category: "advocacy",
+    dossierId: "NKM-NEW-ADV-01",
+    status: "Verified",
+    date: "May 2026",
+    link: "https://www.suss.edu.sg/news-and-events/conferences"
+  },
   {
     id: "new-academic-synthica-journal",
     title: "Synthica Journal Ethics Review Board Director",
@@ -110,17 +122,6 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     dossierId: "NKM-NEW-ACA-02",
     status: "Dossier Filed",
     date: "April 2026 - Present"
-  },
-  {
-    id: "new-academic-bu1ld-advisor",
-    title: "The Bu1ld Automation Architecture Implementation Advisor",
-    subtitle: "Partnered with Microsoft and MIT Researchers",
-    description: "Consulted on building modular automation compilation systems. Configured specialized container deployment scripts parsing infrastructure components to scale up scientific workflow orchestrations without computational latency bottlenecking.",
-    imagePath: "/assets/images/the-bu1ld-automation-architecture-implementation-advisor.png",
-    category: "academic",
-    dossierId: "NKM-NEW-ACA-03",
-    status: "Verified",
-    date: "March 2026 - Present"
   }
 ];
 
@@ -175,25 +176,13 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     isNew: false
   },
   {
-    id: "old-policy-dso-ctf-2019",
-    title: "DSO World of Science CTF Winner 2019",
-    subtitle: "Cybersecurity & Cryptography Capture the Flag",
-    description: "Secured top rankings in military cyber-defense challenges. Resolved complex buffer-overflow exploits, reverse-engineered binaries, and identified administrative vulnerabilities on simulated critical industrial networks.",
-    imagePath: "/assets/images/dso-world-of-science-ctf-2019.png",
-    category: "policy",
-    dossierId: "NKM-HIST-POL-05",
-    status: "Verified",
-    date: "Pre-March 2026",
-    isNew: false
-  },
-  {
     id: "old-policy-sirc",
     title: "Singapore International Relations Conference 2018",
     subtitle: "Undergraduate Policy Roundtables Delegate",
     description: "Participated in strategic roundtables discussing major power dynamics in the Indo-Pacific region, examining Singapore's key diplomatic leverage within multilateral Southeast Asian frameworks.",
     imagePath: "/assets/images/singapore-international-relations-conference.png",
     category: "policy",
-    dossierId: "NKM-HIST-POL-06",
+    dossierId: "NKM-HIST-POL-05",
     status: "Dossier Filed",
     date: "Pre-March 2026",
     isNew: false
@@ -205,7 +194,7 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     description: "Represented official state positions in human rights frameworks. Formulated draft resolutions outlining pathways to eliminate educational marginalization among rural agricultural communities.",
     imagePath: "/assets/images/unas-mun-preparatory-conference.png",
     category: "policy",
-    dossierId: "NKM-HIST-POL-07",
+    dossierId: "NKM-HIST-POL-06",
     status: "Dossier Filed",
     date: "Pre-March 2026",
     isNew: false
@@ -213,50 +202,15 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
 
   // PILLAR_ADVOCACY (Old)
   {
-    id: "old-advocacy-surge-dis",
-    title: "Surge - Disability Advocacy Initiative",
-    subtitle: "Founder and Lead Accessibility Designer",
-    description: "Designed multi-modal pathways and cognitive mapping workflows to represent disability narratives. Collaborated directly with local support groups to translate individual systemic barriers into concrete urban planning change requests.",
-    imagePath: "/assets/images/surge-disability-advocacy.png",
+    id: "old-advocacy-surge",
+    title: "Surge Disability Advocacy",
+    subtitle: "Founder, Designer, and Community Collaborator",
+    description: "Led a multi-faceted disability advocacy initiative encompassing design, visual storytelling, and fundraising. Key contributions included: (1) designing multi-modal pathways and cognitive mapping workflows to represent disability narratives, "
+                + " (2) curating HDB community photography to highlight spatial inclusivity and lived experiences of residents, and(3) conceptualizing and auctioning the 'Surge' canvas painting to philanthropist Vincent Chai, raising funds for specialized medical device procurement programs.",
+    imagePath: "/assets/images/surge-disability-advocacy.png", // "/assets/images/hdb-photography-disability-advocacy.png" "/assets/images/surge-auction-rdss-fundraiser.png"
     category: "advocacy",
     dossierId: "NKM-HIST-ADV-01",
     status: "Dossier Filed",
-    date: "Pre-March 2026",
-    isNew: false
-  },
-  {
-    id: "old-advocacy-hdb-photo",
-    title: "HDB Photography - Disability Advocacy",
-    subtitle: "Curating Spatial Inclusivity Portrayals",
-    description: "Commissioned to photograph HDB community layouts, capturing and showcasing the lived utility experiences of wheelchair-bound and neurodivergent residents navigating physical and emotional infrastructures.",
-    imagePath: "/assets/images/hdb-photography-disability-advocacy.png",
-    category: "advocacy",
-    dossierId: "NKM-HIST-ADV-02",
-    status: "Dossier Filed",
-    date: "Pre-March 2026",
-    isNew: false
-  },
-  {
-    id: "old-advocacy-surge-auction",
-    title: "‘Surge’ Canvas Painting Action to Vincent Chai",
-    subtitle: "Rare Disorders Society Singapore (RDSS) Fundraiser",
-    description: "Successfully conceptualized and auctioned a custom-designed painting ('Surge') to philanthropist Vincent Chai, raising essential funding units to sponsor specialized medical device procurement programs.",
-    imagePath: "/assets/images/surge-auction-rdss-fundraiser.png",
-    category: "advocacy",
-    dossierId: "NKM-HIST-ADV-03",
-    status: "Verified",
-    date: "Pre-March 2026",
-    isNew: false
-  },
-  {
-    id: "old-advocacy-7cups-cbd",
-    title: "7 Cups Community Building Course",
-    subtitle: "Certified Support System Facilitator",
-    description: "Completed specialized peer mentoring certificates modeling psychological first aid, actively managing active listening support streams for over 120 global users enduring isolation.",
-    imagePath: "/assets/images/seven-cups-community-building.png",
-    category: "advocacy",
-    dossierId: "NKM-HIST-ADV-04",
-    status: "Verified",
     date: "Pre-March 2026",
     isNew: false
   },
@@ -267,7 +221,7 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     description: "Acquired critical behavioral health intake exposure, coordinating peer volunteer circles and structuring mental health resource directories for neurodivergent high school cohorts.",
     imagePath: "/assets/images/seven-cups-internship-honors.png",
     category: "advocacy",
-    dossierId: "NKM-HIST-ADV-05",
+    dossierId: "NKM-HIST-ADV-02",
     status: "Verified",
     date: "Pre-March 2026",
     isNew: false
@@ -279,7 +233,7 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     description: "Conducted remote fellowship studies tracking adult transition outcomes for diagnosed individuals, authoring a meta-analysis evaluating the integration parameters of localized supported employment codes.",
     imagePath: "/assets/images/research-fellowship-full-spectrum-agency.png",
     category: "advocacy",
-    dossierId: "NKM-HIST-ADV-06",
+    dossierId: "NKM-HIST-ADV-03",
     status: "Verified",
     date: "Pre-March 2026",
     isNew: false
@@ -398,8 +352,9 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     id: "old-academic-robocup",
     title: "RoboCup Singapore Open 2018 Gold Medalist",
     subtitle: "RCAP CoSpace Rescue Category (Asia-Pacific)",
-    description: "Engineered path-finding path logics, ultrasonic alignment algorithms, and multi-sensor routing states, securing absolute top rank in autonomous digital rescue operations.",
-    imagePath: "/assets/images/robocup-singapore-open-2018-gold.png",
+    description: "Engineered path-finding path logics, ultrasonic alignment algorithms, and multi-sensor routing states, securing absolute top rank in autonomous digital rescue operations. "
+                 + "Presented with the institutional Colors citation for leading the engineering development, systems architecture, and codebases in international competitions.",
+    imagePath: "/assets/images/robocup-singapore-open-2018-gold.png", // "/assets/images/raffles-colours-outstanding-award.png"
     category: "academic",
     dossierId: "NKM-HIST-ACA-10",
     status: "Verified",
@@ -407,25 +362,14 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     isNew: false
   },
   {
-    id: "old-academic-raffles",
-    title: "Raffles Colours Outstanding Award (Performance)",
-    subtitle: "Distinguished Robotics Achievement Honors",
-    description: "Presented with the institutional Colors citation for leading the engineering development, systems architecture, and codebases in international competitive robotic fields.",
-    imagePath: "/assets/images/raffles-colours-outstanding-award.png",
+    id: "old-academic-dso-ctf-winner",
+    title: "DSO World of Science CTF Winner 2019",
+    subtitle: "Cybersecurity, Cryptography Capture the Flag & Security Architecture Track",
+    description: "Secured top rankings in military cyber-defense challenges. Resolved complex buffer-overflow exploits, reverse-engineered binaries, and identified administrative vulnerabilities on simulated critical industrial networks."
+                + "Identified memory management leaks in legacy IoT assemblies and compiled vulnerability reports recommending specific modern static buffer solutions.",
+    imagePath: "/assets/images/dso-world-of-science-ctf-2019.png", // "/assets/images/dso-world-of-science-ctf-academic-2019.png"
     category: "academic",
     dossierId: "NKM-HIST-ACA-11",
-    status: "Verified",
-    date: "Pre-March 2026",
-    isNew: false
-  },
-  {
-    id: "old-academic-dso-ctu-winner",
-    title: "DSO World of Science CTF Winner 2019",
-    subtitle: "Security Architecture Track",
-    description: "Identified memory management leaks in legacy IoT assemblies and compiled vulnerability reports recommending specific modern static buffer solutions.",
-    imagePath: "/assets/images/dso-world-of-science-ctf-academic-2019.png",
-    category: "academic",
-    dossierId: "NKM-HIST-ACA-12",
     status: "Verified",
     date: "Pre-March 2026",
     isNew: false
@@ -437,11 +381,24 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     description: "Offered a highly selective institutional scholarship to complete postgraduate study modules focusing on quantitative random controlled trials (RCT) for development policy.",
     imagePath: "/assets/images/mit-mas-data-economics-policy-scholarship.png",
     category: "academic",
+    dossierId: "NKM-HIST-ACA-12",
+    status: "Verified",
+    date: "Pre-March 2026",
+    isNew: false
+  },
+  { 
+    id: "old-academic-chinese-proficiency",
+    title: "HSK Level 5",
+    subtitle: "Examination Report",
+    description: "Acheived results of top 70 percentile",
+    imagePath: "/assets/images/hsk-level-5.png",
+    category: "academic",
     dossierId: "NKM-HIST-ACA-13",
     status: "Verified",
     date: "Pre-March 2026",
     isNew: false
   },
+
 
   // PILLAR_CULTURE (Old)
   {
