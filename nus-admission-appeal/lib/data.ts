@@ -369,18 +369,6 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     date: "Pre-March 2026",
     isNew: false
   },
-  {
-    id: "old-academic-mit-scholarship",
-    title: "MIT Master of Applied Science Scholarship Offer",
-    subtitle: "",
-    description: "To prove proficiency in Data Science, Economics and Policy Design. Did not complete - critical illness in immediate family.",
-    imagePath: "/assets/images/mit-mas-data-economics-policy-scholarship.png",
-    category: "academic",
-    dossierId: "NKM-HIST-ACA-12",
-    status: "Verified",
-    date: "Pre-March 2026",
-    isNew: false
-  },
   { 
     id: "old-academic-chinese-proficiency",
     title: "HSK Level 5",
