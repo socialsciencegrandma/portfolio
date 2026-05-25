@@ -194,9 +194,6 @@ export default function Home() {
         {/* --- HUMBLE REFLECTION SUMMARIES --- */}
         <section id="reflection-summaries" className="space-y-6">
           <div className="border-b border-stone-200 pb-4">
-            <span className="text-[10px] font-mono tracking-widest text-stone-400 uppercase font-bold">
-              ADMINISTRATIVE CASE SUMMARY
-            </span>
             <h2 className="text-xl font-display font-semibold text-stone-900 tracking-tight">
               Personal Context & Strategic Alignment Reflective Summary
             </h2>
