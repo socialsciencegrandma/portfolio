@@ -68,18 +68,21 @@ function EditorialAssetImage({
       <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(120,113,108,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(120,113,108,0.03)_1px,transparent_1px)] bg-[size:16px_16px] pointer-events-none" />
       
       {!hasError ? (
-        <Image
-          src={src}
-          alt={alt}
-          fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-cover transition-transform duration-500 group-hover:scale-[1.02] z-10"
-          onError={() => setHasError(true)}
-          referrerPolicy="no-referrer"
-        />
+        <div className="flex items-center justify-center h-screen">
+          <Image
+            src={src}
+            alt={alt}
+            width={1920}
+            height={1080}
+            className="object-cover transition-transform duration-500 group-hover:scale-[1.02] z-10"
+            onError={() => setHasError(true)}
+            referrerPolicy="no-referrer"
+          />
+        </div>
       ) : null}
 
       {/* Styled Informational Layer (visible as background metadata and fallback) */}
+      {/*
       <div className="relative z-0 flex flex-col justify-between h-full w-full">
         <div className="flex justify-between items-start">
           <span className={`text-[10px] uppercase font-mono tracking-wider px-2 py-0.5 rounded font-semibold border border-stone-200/50 ${meta.accent}`}>
@@ -94,6 +97,7 @@ function EditorialAssetImage({
           </p>
         </div>
       </div>
+      */}
     </div>
   );
 }
