@@ -106,7 +106,7 @@ export default function Home() {
   const historicalSubsections = [
     {
       id: 'academic',
-      title: 'Academic & Formal Foundations',
+      title: 'Academic',
       description: 'Prior scholastic foundations, certified micro-credentials, and computational modeling projects completed during general cycle audits.',
       icon: BookOpen,
       color: 'border-stone-200 hover:border-stone-300',
@@ -115,7 +115,7 @@ export default function Home() {
     },
     {
       id: 'policy',
-      title: 'Policy & Governance Artifacts',
+      title: 'Policy',
       description: 'Prior public administration training, diplomatic summit debates, and national youth policy delegations.',
       icon: Scale,
       color: 'border-stone-200 hover:border-stone-300',
@@ -124,7 +124,7 @@ export default function Home() {
     },
     {
       id: 'advocacy',
-      title: 'Advocacy, Healthcare & Access Advocacy',
+      title: 'Advocacy',
       description: 'Prior community initiatives, clinical internships, and non-profit fundraisers driving universal accessibility modeling.',
       icon: Heart,
       color: 'border-stone-200 hover:border-rose-200',
@@ -133,7 +133,7 @@ export default function Home() {
     },
     {
       id: 'culture',
-      title: 'Southeast Asian Cultural Immersion',
+      title: 'Culture',
       description: 'Exploration of regional literature, shadow theater arts, and architectural field-studies across ASEAN communities.',
       icon: Globe,
       color: 'border-stone-200 hover:border-stone-300',
