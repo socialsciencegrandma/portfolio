@@ -410,11 +410,11 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     isNew: false
   },
   { 
-    id: "old-academic-confucius",
-    title: "Confucius Chinese Proficiency Test",
+    id: "old-academic-chinese-proficiency",
+    title: "HSK Level 5",
     subtitle: "Examination Report",
     description: "Acheived results of top 70 percentile",
-    imagePath: "/assets/images/mit-mas-data-economics-policy-scholarship.png",
+    imagePath: "/assets/images/hsk-level-5.png",
     category: "academic",
     dossierId: "NKM-HIST-ACA-13",
     status: "Verified",
