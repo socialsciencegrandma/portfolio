@@ -186,7 +186,7 @@ export default function Home() {
               Ng Kai Ming <span className="text-stone-400 font-sans text-xl sm:text-2xl font-normal ml-1">(伍恺茗)</span>
             </h1>
             <p className="text-stone-700 text-base sm:text-lg leading-relaxed max-w-3xl font-display">
-              Official appeal portfolio for admission to <span className="font-semibold text-stone-900">Southeast Asian Studies</span>. Re-submitted with recent academic achievements, board appointments, and development policy studies completed between <span className="text-rose-600 font-medium">March 2026 and Present</span>.
+              Official appeal portfolio for admission to <span className="font-semibold text-stone-900">Southeast Asian Studies</span>. Included description and proof of recent abstract acceptances, board appointments, and regional policy work completed between <span className="text-rose-600 font-medium">March 2026 and Present</span>.
             </p>
           </div>
         </header>
