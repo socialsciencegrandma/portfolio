@@ -107,7 +107,7 @@ export default function Home() {
     {
       id: 'academic',
       title: 'Academic',
-      description: 'Prior scholastic foundations, certified micro-credentials, and computational modeling projects completed during general cycle audits.',
+      description: '',
       icon: BookOpen,
       color: 'border-stone-200 hover:border-stone-300',
       badgeColor: 'text-stone-700 bg-stone-100',
@@ -116,7 +116,7 @@ export default function Home() {
     {
       id: 'policy',
       title: 'Policy',
-      description: 'Prior public administration training, diplomatic summit debates, and national youth policy delegations.',
+      description: '',
       icon: Scale,
       color: 'border-stone-200 hover:border-stone-300',
       badgeColor: 'text-stone-700 bg-stone-100',
@@ -125,7 +125,7 @@ export default function Home() {
     {
       id: 'advocacy',
       title: 'Advocacy',
-      description: 'Prior community initiatives, clinical internships, and non-profit fundraisers driving universal accessibility modeling.',
+      description: '',
       icon: Heart,
       color: 'border-stone-200 hover:border-rose-200',
       badgeColor: 'text-rose-600 bg-rose-50 border-rose-100',
@@ -134,7 +134,7 @@ export default function Home() {
     {
       id: 'culture',
       title: 'Culture',
-      description: 'Exploration of regional literature, shadow theater arts, and architectural field-studies across ASEAN communities.',
+      description: '',
       icon: Globe,
       color: 'border-stone-200 hover:border-stone-300',
       badgeColor: 'text-amber-700 bg-amber-50',
