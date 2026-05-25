@@ -385,12 +385,12 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     isNew: false
   },
   {
-    id: "old-academic-dso-ctu-winner",
+    id: "old-academic-dso-ctf-winner",
     title: "DSO World of Science CTF Winner 2019",
     subtitle: "Cybersecurity, Cryptography Capture the Flag & Security Architecture Track",
     description: "Secured top rankings in military cyber-defense challenges. Resolved complex buffer-overflow exploits, reverse-engineered binaries, and identified administrative vulnerabilities on simulated critical industrial networks."
                 + "Identified memory management leaks in legacy IoT assemblies and compiled vulnerability reports recommending specific modern static buffer solutions.",
-    imagePath: "/assets/images/dso-world-of-science-ctf-academic-2019.png", // "/assets/images/dso-world-of-science-ctf-2019.png"
+    imagePath: "/assets/images/dso-world-of-science-ctf-2019.png", // "/assets/images/dso-world-of-science-ctf-academic-2019.png"
     category: "academic",
     dossierId: "NKM-HIST-ACA-11",
     status: "Verified",
