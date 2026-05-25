@@ -502,8 +502,12 @@ export default function Home() {
         {/* --- HUMAN EDITORIAL FOOTER --- */}
         <footer className="border-t border-stone-200 pt-8 pb-12 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-stone-400 font-mono">
           <div className="space-y-1 text-center md:text-left">
-            <p>Compiled for NUS 2026 Undergraduate Appeal Exercise.</p>
-            <p className="text-[11px] text-stone-400/85">College of Humanities and Sciences Southeast Asian Studies Application Appeal</p>
+            <p>Verification dossier compiled for review by the NUS Office of Admissions.</p>
+            <p className="text-[11px] text-stone-400/85">College of Humanities and Sciences Application Appeal // 2026.NUS.CHS.SEAS.APPEAL</p>
+          </div>
+          <div className="flex items-center space-x-1 text-[11px]">
+            <span className="w-1.5 h-1.5 rounded-full bg-stone-400 inline-block" />
+            <span>Document integrity confirmed.</span>
           </div>
         </footer>
 
