@@ -176,25 +176,13 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     isNew: false
   },
   {
-    id: "old-policy-dso-ctf-2019",
-    title: "DSO World of Science CTF Winner 2019",
-    subtitle: "Cybersecurity & Cryptography Capture the Flag",
-    description: "Secured top rankings in military cyber-defense challenges. Resolved complex buffer-overflow exploits, reverse-engineered binaries, and identified administrative vulnerabilities on simulated critical industrial networks.",
-    imagePath: "/assets/images/dso-world-of-science-ctf-2019.png",
-    category: "policy",
-    dossierId: "NKM-HIST-POL-05",
-    status: "Verified",
-    date: "Pre-March 2026",
-    isNew: false
-  },
-  {
     id: "old-policy-sirc",
     title: "Singapore International Relations Conference 2018",
     subtitle: "Undergraduate Policy Roundtables Delegate",
     description: "Participated in strategic roundtables discussing major power dynamics in the Indo-Pacific region, examining Singapore's key diplomatic leverage within multilateral Southeast Asian frameworks.",
     imagePath: "/assets/images/singapore-international-relations-conference.png",
     category: "policy",
-    dossierId: "NKM-HIST-POL-06",
+    dossierId: "NKM-HIST-POL-05",
     status: "Dossier Filed",
     date: "Pre-March 2026",
     isNew: false
@@ -206,7 +194,7 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     description: "Represented official state positions in human rights frameworks. Formulated draft resolutions outlining pathways to eliminate educational marginalization among rural agricultural communities.",
     imagePath: "/assets/images/unas-mun-preparatory-conference.png",
     category: "policy",
-    dossierId: "NKM-HIST-POL-07",
+    dossierId: "NKM-HIST-POL-06",
     status: "Dossier Filed",
     date: "Pre-March 2026",
     isNew: false
@@ -399,9 +387,10 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
   {
     id: "old-academic-dso-ctu-winner",
     title: "DSO World of Science CTF Winner 2019",
-    subtitle: "Security Architecture Track",
-    description: "Identified memory management leaks in legacy IoT assemblies and compiled vulnerability reports recommending specific modern static buffer solutions.",
-    imagePath: "/assets/images/dso-world-of-science-ctf-academic-2019.png",
+    subtitle: "Cybersecurity, Cryptography Capture the Flag & Security Architecture Track",
+    description: "Secured top rankings in military cyber-defense challenges. Resolved complex buffer-overflow exploits, reverse-engineered binaries, and identified administrative vulnerabilities on simulated critical industrial networks."
+                + "Identified memory management leaks in legacy IoT assemblies and compiled vulnerability reports recommending specific modern static buffer solutions.",
+    imagePath: "/assets/images/dso-world-of-science-ctf-academic-2019.png", // "/assets/images/dso-world-of-science-ctf-2019.png"
     category: "academic",
     dossierId: "NKM-HIST-ACA-11",
     status: "Verified",
