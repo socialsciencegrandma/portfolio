@@ -195,7 +195,7 @@ export default function Home() {
         <section id="reflection-summaries" className="space-y-6">
           <div className="border-b border-stone-200 pb-4">
             <h2 className="text-xl font-display font-semibold text-stone-900 tracking-tight">
-              Personal Context & Strategic Alignment Reflective Summary
+              Categories
             </h2>
           </div>
 
@@ -212,7 +212,7 @@ export default function Home() {
                 </h3>
               </div>
               <p className="text-xs text-stone-600 leading-relaxed">
-                My prior qualifications do not fully reflect my true potential. During my foundational education, I navigated an undiagnosed cognitive disability, lacked financial resources for basic diagnostics like vision glasses, and served as the primary caretaker for multiple immediate relatives undergoing battles with cancer and Alzheimer&apos;s. These post-March 2026 milestones, accomplished in a stable, structured environment, represent my true academic baseline.
+                The achievements in this category seek to establish my academic proficiency and credibility. During my A Levels, I navigated an undiagnosed disability, lacked financial resources for glasses, and served as the primary caretaker for multiple immediate relatives undergoing battles with cancer and Alzheimer&apos;s. 
               </p>
             </div>
 
@@ -227,7 +227,7 @@ export default function Home() {
                 </h3>
               </div>
               <p className="text-xs text-stone-600 leading-relaxed">
-                My personal journey drives my commitment to public sector accessibility. My advocacy work is focused on elevating student perspectives and architecting dignified, system-wide support pipelines for invisible disabilities in Higher Education. By integrating assistive multi-modal algorithms, I aim to normalize neurodivergence within institutional learning architectures.
+                My personal journey drives my commitment to equitable access, treatment and opportunity for PWDs.
               </p>
             </div>
 
@@ -242,7 +242,7 @@ export default function Home() {
                 </h3>
               </div>
               <p className="text-xs text-stone-600 leading-relaxed">
-                Southeast Asia&apos;s development relies on the delicate interaction of cross-border directives and local ecosystems. My policy research investigates how Special Economic Zone protocols apply on the ground, connecting macro-level trade and circular e-waste policies to the daily realities of domestic supply chains and local workforces.
+                On-the-ground projects in the general ASEAN region with real impact.
               </p>
             </div>
 
@@ -257,7 +257,7 @@ export default function Home() {
                 </h3>
               </div>
               <p className="text-xs text-stone-600 leading-relaxed">
-                My engagement with regional heritage informs my leadership approach. By studying Southeast Asian performance traditions and executing grassroots programs, I cultivate decentralized youth networks across Singapore and Vietnam. This groundwork bridges traditional local perspectives with modern community initiatives.
+                My early exposure to anthropology formed the basis of my humanistic and humanitarian approach to policy research and programme design.
               </p>
             </div>
 
