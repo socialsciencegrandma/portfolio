@@ -345,7 +345,7 @@ export default function Home() {
                       {/* Meta header, simplified */}
                       <div className="flex justify-between items-center text-[10px] font-mono text-stone-400 border-b border-stone-100 pb-2">
                         <span className="font-semibold text-rose-600 tracking-wider">
-                          [RECENT ARR]
+                          [RECENT ACHIEVEMENT]
                         </span>
                         <span>{item.date}</span>
                       </div>
