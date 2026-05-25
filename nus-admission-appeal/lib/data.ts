@@ -23,7 +23,7 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     category: "policy",
     dossierId: "NKM-NEW-POL-01",
     status: "Verified",
-    date: "April 2026 - Present",
+    date: "May 2026 - Present",
     isNew: true
   },
   {
@@ -46,7 +46,7 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     category: "policy",
     dossierId: "NKM-NEW-POL-03",
     status: "Dossier Filed",
-    date: "March 2026 - Present"
+    date: "April 2026 - Present"
   },
   {
     id: "new-policy-dis",
@@ -57,7 +57,7 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     category: "policy",
     dossierId: "NKM-NEW-POL-04",
     status: "Verified",
-    date: "March 2026 - Present",
+    date: "May 2026 - Present",
     link: "https://dis.community"
   },
 
@@ -82,7 +82,7 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     category: "advocacy",
     dossierId: "NKM-NEW-ADV-01",
     status: "Verified",
-    date: "May 2026",
+    date: "September 2026",
     link: "https://www.suss.edu.sg/news-events/happenings/events/detail/2026/09/01/default-calendar/dr-alan-hj-chan-well-being-conference-2026-(re-define-success-conference-series)"
   },
 
@@ -96,7 +96,7 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     category: "advocacy",
     dossierId: "NKM-NEW-ADV-01",
     status: "Verified",
-    date: "May 2026",
+    date: "September 2026",
     link: "https://www.suss.edu.sg/news-events/happenings/events/detail/2026/09/01/default-calendar/dr-alan-hj-chan-well-being-conference-2026-(re-define-success-conference-series)"
   },
   {
