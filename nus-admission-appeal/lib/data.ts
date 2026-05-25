@@ -250,18 +250,6 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     isNew: false
   },
   {
-    id: "old-advocacy-7cups-cbd",
-    title: "7 Cups Community Building Course",
-    subtitle: "Certified Support System Facilitator",
-    description: "Completed specialized peer mentoring certificates modeling psychological first aid, actively managing active listening support streams for over 120 global users enduring isolation.",
-    imagePath: "/assets/images/seven-cups-community-building.png",
-    category: "advocacy",
-    dossierId: "NKM-HIST-ADV-04",
-    status: "Verified",
-    date: "Pre-March 2026",
-    isNew: false
-  },
-  {
     id: "old-advocacy-7cups-intern",
     title: "7 Cups Internship Student Track with Honors",
     subtitle: "Honors Graduate Peer Counselor",
@@ -399,22 +387,11 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     id: "old-academic-robocup",
     title: "RoboCup Singapore Open 2018 Gold Medalist",
     subtitle: "RCAP CoSpace Rescue Category (Asia-Pacific)",
-    description: "Engineered path-finding path logics, ultrasonic alignment algorithms, and multi-sensor routing states, securing absolute top rank in autonomous digital rescue operations.",
-    imagePath: "/assets/images/robocup-singapore-open-2018-gold.png",
+    description: "Engineered path-finding path logics, ultrasonic alignment algorithms, and multi-sensor routing states, securing absolute top rank in autonomous digital rescue operations. "
+                 + "Presented with the institutional Colors citation for leading the engineering development, systems architecture, and codebases in international competitions.",
+    imagePath: "/assets/images/robocup-singapore-open-2018-gold.png", // "/assets/images/raffles-colours-outstanding-award.png"
     category: "academic",
     dossierId: "NKM-HIST-ACA-10",
-    status: "Verified",
-    date: "Pre-March 2026",
-    isNew: false
-  },
-  {
-    id: "old-academic-raffles",
-    title: "Raffles Colours Outstanding Award (Performance)",
-    subtitle: "Distinguished Robotics Achievement Honors",
-    description: "Presented with the institutional Colors citation for leading the engineering development, systems architecture, and codebases in international competitive robotic fields.",
-    imagePath: "/assets/images/raffles-colours-outstanding-award.png",
-    category: "academic",
-    dossierId: "NKM-HIST-ACA-11",
     status: "Verified",
     date: "Pre-March 2026",
     isNew: false
@@ -426,7 +403,7 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     description: "Identified memory management leaks in legacy IoT assemblies and compiled vulnerability reports recommending specific modern static buffer solutions.",
     imagePath: "/assets/images/dso-world-of-science-ctf-academic-2019.png",
     category: "academic",
-    dossierId: "NKM-HIST-ACA-12",
+    dossierId: "NKM-HIST-ACA-11",
     status: "Verified",
     date: "Pre-March 2026",
     isNew: false
@@ -438,11 +415,24 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     description: "Offered a highly selective institutional scholarship to complete postgraduate study modules focusing on quantitative random controlled trials (RCT) for development policy.",
     imagePath: "/assets/images/mit-mas-data-economics-policy-scholarship.png",
     category: "academic",
+    dossierId: "NKM-HIST-ACA-12",
+    status: "Verified",
+    date: "Pre-March 2026",
+    isNew: false
+  },
+  { 
+    id: "old-academic-confucius",
+    title: "Confucius Chinese Proficiency Test",
+    subtitle: "Examination Report",
+    description: "Acheived results of top 70 percentile",
+    imagePath: "/assets/images/mit-mas-data-economics-policy-scholarship.png",
+    category: "academic",
     dossierId: "NKM-HIST-ACA-13",
     status: "Verified",
     date: "Pre-March 2026",
     isNew: false
   },
+
 
   // PILLAR_CULTURE (Old)
   {
