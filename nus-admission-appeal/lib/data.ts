@@ -202,38 +202,15 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
 
   // PILLAR_ADVOCACY (Old)
   {
-    id: "old-advocacy-surge-dis",
-    title: "Surge - Disability Advocacy Initiative",
-    subtitle: "Founder and Lead Accessibility Designer",
-    description: "Designed multi-modal pathways and cognitive mapping workflows to represent disability narratives. Collaborated directly with local support groups to translate individual systemic barriers into concrete urban planning change requests.",
-    imagePath: "/assets/images/surge-disability-advocacy.png",
+    id: "old-advocacy-surge",
+    title: "Surge Disability Advocacy",
+    subtitle: "Founder, Designer, and Community Collaborator",
+    description: "Led a multi-faceted disability advocacy initiative encompassing design, visual storytelling, and fundraising. Key contributions included: (1) designing multi-modal pathways and cognitive mapping workflows to represent disability narratives, "
+                + " (2) curating HDB community photography to highlight spatial inclusivity and lived experiences of residents, and(3) conceptualizing and auctioning the 'Surge' canvas painting to philanthropist Vincent Chai, raising funds for specialized medical device procurement programs.",
+    imagePath: "/assets/images/surge-disability-advocacy.png", // "/assets/images/hdb-photography-disability-advocacy.png" "/assets/images/surge-auction-rdss-fundraiser.png"
     category: "advocacy",
     dossierId: "NKM-HIST-ADV-01",
     status: "Dossier Filed",
-    date: "Pre-March 2026",
-    isNew: false
-  },
-  {
-    id: "old-advocacy-hdb-photo",
-    title: "HDB Photography - Disability Advocacy",
-    subtitle: "Curating Spatial Inclusivity Portrayals",
-    description: "Commissioned to photograph HDB community layouts, capturing and showcasing the lived utility experiences of wheelchair-bound and neurodivergent residents navigating physical and emotional infrastructures.",
-    imagePath: "/assets/images/hdb-photography-disability-advocacy.png",
-    category: "advocacy",
-    dossierId: "NKM-HIST-ADV-02",
-    status: "Dossier Filed",
-    date: "Pre-March 2026",
-    isNew: false
-  },
-  {
-    id: "old-advocacy-surge-auction",
-    title: "‘Surge’ Canvas Painting Action to Vincent Chai",
-    subtitle: "Rare Disorders Society Singapore (RDSS) Fundraiser",
-    description: "Successfully conceptualized and auctioned a custom-designed painting ('Surge') to philanthropist Vincent Chai, raising essential funding units to sponsor specialized medical device procurement programs.",
-    imagePath: "/assets/images/surge-auction-rdss-fundraiser.png",
-    category: "advocacy",
-    dossierId: "NKM-HIST-ADV-03",
-    status: "Verified",
     date: "Pre-March 2026",
     isNew: false
   },
@@ -244,7 +221,7 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     description: "Acquired critical behavioral health intake exposure, coordinating peer volunteer circles and structuring mental health resource directories for neurodivergent high school cohorts.",
     imagePath: "/assets/images/seven-cups-internship-honors.png",
     category: "advocacy",
-    dossierId: "NKM-HIST-ADV-05",
+    dossierId: "NKM-HIST-ADV-02",
     status: "Verified",
     date: "Pre-March 2026",
     isNew: false
@@ -256,7 +233,7 @@ export const HISTORICAL_ACHIEVEMENTS: Achievement[] = [
     description: "Conducted remote fellowship studies tracking adult transition outcomes for diagnosed individuals, authoring a meta-analysis evaluating the integration parameters of localized supported employment codes.",
     imagePath: "/assets/images/research-fellowship-full-spectrum-agency.png",
     category: "advocacy",
-    dossierId: "NKM-HIST-ADV-06",
+    dossierId: "NKM-HIST-ADV-03",
     status: "Verified",
     date: "Pre-March 2026",
     isNew: false
