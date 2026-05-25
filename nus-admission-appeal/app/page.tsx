@@ -467,7 +467,7 @@ export default function Home() {
                           >
                             <div className="space-y-4">
                               <div className="flex justify-between items-center text-[9px] font-mono text-stone-400 border-b border-stone-100 pb-2">
-                                <span>FOUNDATIONAL</span>
+                                <span>PRE-MARCH 2026</span>
                                 <span>{item.date}</span>
                               </div>
 
