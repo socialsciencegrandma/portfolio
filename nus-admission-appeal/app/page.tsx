@@ -183,7 +183,7 @@ export default function Home() {
 
           <div className="space-y-4">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-medium text-stone-900 tracking-tight">
-              Ng Kai Ming <span className="text-stone-400 font-sans text-xl sm:text-2xl font-normal ml-1">(伍恺茗)</span>
+              Ng Kai Ming
             </h1>
             <p className="text-stone-700 text-base sm:text-lg leading-relaxed max-w-3xl font-display">
               Official appeal portfolio for admission to <span className="font-semibold text-stone-900">Southeast Asian Studies</span>. Included description and proof of recent abstract acceptances, board appointments, and regional policy work completed between <span className="text-rose-600 font-medium">March 2026 and Present</span>.
@@ -302,7 +302,7 @@ export default function Home() {
                 March 2026 To Present (Post-Application)
               </span>
               <h2 className="text-2xl font-display font-semibold text-stone-900 tracking-tight">
-                New Achievements & Scholarly Milestones
+                New Achievements
               </h2>
             </div>
             <div className="hidden sm:block text-xs font-mono text-rose-600 bg-rose-50 border border-rose-200 px-2.5 py-1 rounded font-semibold uppercase">
@@ -383,7 +383,7 @@ export default function Home() {
                           rel="noopener noreferrer"
                           className="text-[11px] font-mono text-stone-500 hover:text-rose-600 transition-colors inline-flex items-center space-x-1"
                         >
-                          <span>Explore Research Hub</span>
+                          <span>Link</span>
                           <ExternalLink className="w-3 h-3" />
                         </a>
                       </div>
