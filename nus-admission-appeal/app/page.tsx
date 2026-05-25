@@ -38,22 +38,22 @@ function EditorialAssetImage({
 
   const categoryMetadata = {
     policy: {
-      tag: 'Policy & Governance Research',
+      tag: 'Policy',
       accent: 'text-stone-600 bg-stone-100',
       icon: Scale,
     },
     advocacy: {
-      tag: 'Disability Advocacy',
+      tag: 'Advocacy',
       accent: 'text-rose-600 bg-rose-50',
       icon: Heart,
     },
     academic: {
-      tag: 'Academic Infrastructure & AI',
+      tag: 'Academic',
       accent: 'text-stone-700 bg-stone-100',
       icon: BookOpen,
     },
     culture: {
-      tag: 'Southeast Asian Culture',
+      tag: 'Culture',
       accent: 'text-amber-700 bg-amber-50',
       icon: Globe,
     }
@@ -145,10 +145,10 @@ export default function Home() {
   // Filtering list for interactive headers
   const filterPillars = [
     { id: 'all', name: 'All Milestones', icon: Sparkles },
-    { id: 'policy', name: 'Policy & Governance', icon: Scale },
-    { id: 'advocacy', name: 'Advocacy & Disability', icon: Heart },
-    { id: 'academic', name: 'Academic & AI', icon: BookOpen },
-    { id: 'culture', name: 'Culture & SEA Arts', icon: Globe },
+    { id: 'policy', name: 'Policy', icon: Scale },
+    { id: 'advocacy', name: 'Advocacy', icon: Heart },
+    { id: 'academic', name: 'Academic', icon: BookOpen },
+    { id: 'culture', name: 'Culture', icon: Globe },
   ];
 
   // Filter the 10 distinct post-application milestones
@@ -208,7 +208,7 @@ export default function Home() {
                   <GraduationCap className="w-4 h-4" />
                 </div>
                 <h3 className="text-sm font-semibold text-stone-900 uppercase tracking-wider">
-                  Academic Infrastructure
+                  Academic
                 </h3>
               </div>
               <p className="text-xs text-stone-600 leading-relaxed">
@@ -223,7 +223,7 @@ export default function Home() {
                   <Heart className="w-4 h-4" />
                 </div>
                 <h3 className="text-sm font-semibold text-stone-900 uppercase tracking-wider">
-                  Advocacy & Disability Access
+                  Advocacy
                 </h3>
               </div>
               <p className="text-xs text-stone-600 leading-relaxed">
@@ -238,7 +238,7 @@ export default function Home() {
                   <Scale className="w-4 h-4" />
                 </div>
                 <h3 className="text-sm font-semibold text-stone-900 uppercase tracking-wider">
-                  Regional Alliances & Policy
+                  Policy
                 </h3>
               </div>
               <p className="text-xs text-stone-600 leading-relaxed">
@@ -253,7 +253,7 @@ export default function Home() {
                   <Globe className="w-4 h-4" />
                 </div>
                 <h3 className="text-sm font-semibold text-stone-900 uppercase tracking-wider">
-                  Community Mobilization & Culture
+                  Culture
                 </h3>
               </div>
               <p className="text-xs text-stone-600 leading-relaxed">
