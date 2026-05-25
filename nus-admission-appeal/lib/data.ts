@@ -64,18 +64,6 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
 
   // PILLAR_ADVOCACY (New)
   {
-    id: "new-advocacy-suss-conf",
-    title: "SUSS Well-being Conference 2026 Double Abstract Acceptance",
-    subtitle: "Invited Day 2 Volunteerism Panelist & Disability Advocate Voice",
-    description: "Co-authored two key papers accepted at SUSS: One focusing on modern structural volunteerism dynamics, and the second analyzing systemic accessibility gaps in regional post-secondary educational infrastructures.",
-    imagePath: "/assets/images/suss-well-being-conference-2026-double-abstract-acceptance.png",
-    category: "advocacy",
-    dossierId: "NKM-NEW-ADV-01",
-    status: "Verified",
-    date: "May 2026",
-    link: "https://www.suss.edu.sg/news-and-events/conferences"
-  },
-  {
     id: "new-advocacy-ai-presentation",
     title: "AI Engineer Presentation with Tesseract Art",
     subtitle: "AI Technologist & Disability Advocate",
@@ -87,9 +75,9 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     date: "17 May 2026"
   },
   {
-    id: "new-advocacy-suss-conf",
-    title: "SUSS Well-being Conference 2026 Double Exhibit",
-    subtitle: "Exhibit Day 2 Volunteerism Panelist & Disability Advocate Voice",
+    id: "new-advocacy-suss-conf-exhibit",
+    title: "SUSS Well-being Conference 2026 Exhibit",
+    subtitle: "Invited Art Exhibitor - Disability Advocate",
     description: "Co-authored two key papers accepted at SUSS: One focusing on modern structural volunteerism dynamics, and the second analyzing systemic accessibility gaps in regional post-secondary educational infrastructures.",
     imagePath: "/assets/images/suss-well-being-conference-2026-exhibit-abstract-acceptance.png",
     category: "advocacy",
@@ -100,6 +88,18 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
   },
 
   // PILLAR_ACADEMIC (New)
+  {
+    id: "new-academic-suss-conf-panel",
+    title: "SUSS Well-being Conference 2026 Panel Abstract Acceptance",
+    subtitle: "Invited Panelist for Day 2, Volunteerism",
+    description: "Co-authored two key papers accepted at SUSS: One focusing on modern structural volunteerism dynamics, and the second analyzing systemic accessibility gaps in regional post-secondary educational infrastructures.",
+    imagePath: "/assets/images/suss-well-being-conference-2026-panel-abstract-acceptance.png",
+    category: "advocacy",
+    dossierId: "NKM-NEW-ADV-01",
+    status: "Verified",
+    date: "May 2026",
+    link: "https://www.suss.edu.sg/news-and-events/conferences"
+  },
   {
     id: "new-academic-synthica-journal",
     title: "Synthica Journal Ethics Review Board Director",
