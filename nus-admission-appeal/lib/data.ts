@@ -36,7 +36,6 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     dossierId: "NKM-NEW-POL-02",
     status: "Verified",
     date: "March 2026 - Present",
-    link: "https://github.com/ngkaiming/scientific-ai-dev-skills"
   },
   {
     id: "new-policy-greenio",
@@ -84,7 +83,7 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     dossierId: "NKM-NEW-ADV-01",
     status: "Verified",
     date: "May 2026",
-    link: "https://www.suss.edu.sg/news-and-events/conferences"
+    link: "https://www.suss.edu.sg/news-events/happenings/events/detail/2026/09/01/default-calendar/dr-alan-hj-chan-well-being-conference-2026-(re-define-success-conference-series)"
   },
 
   // PILLAR_ACADEMIC (New)
@@ -98,7 +97,7 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     dossierId: "NKM-NEW-ADV-01",
     status: "Verified",
     date: "May 2026",
-    link: "https://www.suss.edu.sg/news-and-events/conferences"
+    link: "https://www.suss.edu.sg/news-events/happenings/events/detail/2026/09/01/default-calendar/dr-alan-hj-chan-well-being-conference-2026-(re-define-success-conference-series)"
   },
   {
     id: "new-academic-synthica-journal",
@@ -110,7 +109,6 @@ export const NEW_ACHIEVEMENTS: Achievement[] = [
     dossierId: "NKM-NEW-ACA-01",
     status: "Verified",
     date: "April 2026 - Present",
-    link: "https://synthicajournal.org/ethics"
   },
   {
     id: "new-academic-equity-economics",
