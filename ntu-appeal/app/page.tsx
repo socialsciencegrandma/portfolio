@@ -174,14 +174,14 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-stone-100 pb-6">
             <div className="space-y-1">
               <span className="text-[10px] font-mono font-bold tracking-widest text-stone-500 uppercase">
-                NATIONAL UNIVERSITY OF SINGAPORE (NUS)
+                NANYANG TECHNOLOGICAl UNIVERSITY (NTU)
               </span>
               <p className="text-xs text-rose-600 font-semibold uppercase tracking-wider">
-                College of Humanities and Sciences (CHS) — Undergraduate Appeal
+                Bachelor of Computing (Hons) in Artificial Intelligence & Society (AISC) — Undergraduate Appeal
               </p>
             </div>
             <div className="text-right text-[11px] font-mono text-stone-500 bg-stone-100 border border-stone-200 px-3 py-1 rounded">
-              Application No: <span className="font-bold text-stone-800">322631047</span>
+              Application No: <span className="font-bold text-stone-800">A00271476</span>
             </div>
           </div>
 
@@ -190,7 +190,7 @@ export default function Home() {
               Ng Kai Ming
             </h1>
             <p className="text-stone-700 text-base sm:text-lg leading-relaxed max-w-3xl font-display">
-              Official appeal portfolio for admission to <span className="font-semibold text-stone-900">Southeast Asian Studies</span>. Included description and proof of recent abstract acceptances, board appointments, and regional policy work completed between <span className="text-rose-600 font-medium">March 2026 and Present</span>.
+              Official appeal portfolio for admission to <span className="font-semibold text-stone-900">AI & Society</span>. Included description and proof of recent abstract acceptances, board appointments, and multinational policy work completed between <span className="text-rose-600 font-medium">March 2026 and Present</span>.
             </p>
           </div>
         </header>
@@ -246,7 +246,7 @@ export default function Home() {
                 </h3>
               </div>
               <p className="text-xs text-stone-600 leading-relaxed">
-                On-the-ground projects in the general ASEAN region with real impact.
+                On-the-ground projects with real-world impact.
               </p>
             </div>
 
@@ -505,8 +505,8 @@ export default function Home() {
         {/* --- HUMAN EDITORIAL FOOTER --- */}
         <footer className="border-t border-stone-200 pt-8 pb-12 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-stone-400 font-mono">
           <div className="space-y-1 text-center md:text-left">
-            <p>Compiled for NUS 2026 Undergraduate Appeal Exercise</p>
-            <p className="text-[11px] text-stone-400/85">College of Humanities and Sciences Southeast Asian Studies Application Appeal</p>
+            <p>Compiled for NTU 2026 Undergraduate Appeal Exercise</p>
+            <p className="text-[11px] text-stone-400/85">College of Computing and Data Science (CCDS) AISC Appeal</p>
           </div>
         </footer>
 
