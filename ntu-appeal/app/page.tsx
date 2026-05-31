@@ -189,6 +189,15 @@ export default function Home() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-medium text-stone-900 tracking-tight">
               Ng Kai Ming
             </h1>
+            <a 
+              href="https://drive.google.com/file/d/14HKICBLmvL57F4OWcuEr5JiJPBcEti3z/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <h2 className="text-3xl sm:text-4xl lg:text-xl font-display font-medium text-stone-900 tracking-tight underline">
+                Google Drive Link
+              </h2>
+            </a>
             <p className="text-stone-700 text-base sm:text-lg leading-relaxed max-w-3xl font-display">
               Official appeal portfolio for admission to <span className="font-semibold text-stone-900">AI & Society</span>. Included description and proof of recent abstract acceptances, board appointments, and multinational policy work completed between <span className="text-rose-600 font-medium">March 2026 and Present</span>.
             </p>
