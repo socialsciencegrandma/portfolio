@@ -195,7 +195,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <h2 className="text-3xl sm:text-4xl lg:text-xl font-display font-medium text-stone-900 tracking-tight underline">
-                Google Drive Link
+                https://drive.google.com/file/d/14HKICBLmvL57F4OWcuEr5JiJPBcEti3z/view?usp=sharing
               </h2>
             </a>
             <p className="text-stone-700 text-base sm:text-lg leading-relaxed max-w-3xl font-display">
