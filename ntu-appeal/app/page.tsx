@@ -201,6 +201,12 @@ export default function Home() {
             <p className="text-stone-700 text-base sm:text-lg leading-relaxed max-w-3xl font-display">
               Official appeal portfolio for admission to <span className="font-semibold text-stone-900">AI & Society</span>. Included description and proof of recent abstract acceptances, board appointments, and multinational policy work completed between <span className="text-rose-600 font-medium">March 2026 and Present</span>.
             </p>
+            <embed 
+              src="/assets/docs/A00271476.pdf" 
+              type="application/pdf" 
+              width="100%" 
+              height="600px" 
+            />
           </div>
         </header>
 
